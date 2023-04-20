@@ -15,11 +15,12 @@ class Livre {
         $this->_price = $price;
         $this->_auteur = $auteur;
         $this->_auteur-> AjoutLivre($this);
-
     }
+        // $this->_auteur-> AjoutLivre($this); cette ligne correspond la classe Auteur -> puis d'y ajouter les livres de ce même auteur dans un array
 
 
-         // getter et setter  pour chaque attribut de la classe Livre:
+        
+        // getter et setter  pour chaque attribut de la classe Livre:
 
 
     public function getPrice(){

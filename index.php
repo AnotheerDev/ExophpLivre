@@ -25,3 +25,5 @@ $livre4 = new Livre ("Shining", 1977, 447, 16, $auteur1);
 
 echo $auteur1;
 echo $livre1;
+
+$auteur1->afficherBibliographie();
