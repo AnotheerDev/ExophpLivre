@@ -16,3 +16,12 @@ complète d’un auteur :</p>
 require "livre.php";
 require "auteur.php";
 
+$auteur1 = new Auteur ("King", "Stephen");
+
+$livre1 = new Livre ("Ca", 1986, 1338, 20, $auteur1);
+$livre2 = new Livre ("Simetierre", 1983, 374, 15, $auteur1);
+$livre3 = new Livre ("Le Fléau", 1978, 823, 14, $auteur1);
+$livre4 = new Livre ("Shining", 1977, 447, 16, $auteur1);
+
+echo $auteur1;
+echo $livre1;
