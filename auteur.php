@@ -37,8 +37,8 @@ class Auteur {
     }
 
     
-    public function afficherBibliographie() {
+    // public function afficherBibliographie() {
         
-    }
+    // }
 
 }

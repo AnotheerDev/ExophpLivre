@@ -59,7 +59,8 @@ class Livre {
         return $this->_title . "(" . $this->_parution . ") : " . $this->_nbPage . " pages " . " / " . $this->_price . "€" ."<br>";
     }
 
-    public function AjoutLivre() {
-        
+    public function AjoutLivre(){
+
     }
+        
 }
