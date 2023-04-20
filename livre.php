@@ -14,7 +14,7 @@ class Livre {
         $this->_parution = $parution;
         $this->_price = $price;
         $this->_auteur = $auteur;
-        $this->_auteur->AjoutLivre($this);
+        $this->_auteur-> AjoutLivre($this);
 
     }
 
@@ -59,8 +59,5 @@ class Livre {
         return $this->_title . "(" . $this->_parution . ") : " . $this->_nbPage . " pages " . " / " . $this->_price . "€" ."<br>";
     }
 
-    public function AjoutLivre(){
-
-    }
         
 }

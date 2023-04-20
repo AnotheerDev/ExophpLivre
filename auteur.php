@@ -36,9 +36,19 @@ class Auteur {
         return  $this->_nom . " " . $this->_prenom . "<br>";
     }
 
+
+    // fonction qui permet d'ajouter un livre à la bibilographie
+    public function AjoutLivre(Livre $livre){
+        $this->_bibliographie[] = $livre;
+    }
     
-    // public function afficherBibliographie() {
-        
-    // }
+
+    // fonction qui permet de sortir toute la bibiliographie d'un auteur 
+    public function afficherBibliographie() {
+        echo "<p>Bibliographie de" .$this->_nom. "" .$this->_prenom. "</p>";
+        foreach($this->_bibliographie as $livre){
+            echo $livre. "<br>";
+        }
+    }
 
 }
